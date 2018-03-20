@@ -1,13 +1,15 @@
 <div class="container">
   <div class="life">
     Life Works!
-    <a routerLink="/about">Go Index</a>
+    <a routerLink="/">Go Index</a>
   </div>
+
+  <button class="toggle-btn" (click)="toggle()">Toggle</button>
 
   <hr/>
 
 
-  <app-cycle [Info]="info"></app-cycle>
+  <app-cycle *ngIf="showCycle" userName="LiLei" [Info]="info"></app-cycle>
 
 
 </div>

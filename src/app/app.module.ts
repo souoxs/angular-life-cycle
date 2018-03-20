@@ -9,6 +9,7 @@ import { IndexComponent } from './index/index.component';
 import { AboutComponent } from './about/about.component';
 import { LifeComponent } from './life/life.component';
 import { CycleComponent } from './cycle/cycle.component';
+import { TimeComponent } from './time/time.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { CycleComponent } from './cycle/cycle.component';
     IndexComponent,
     AboutComponent,
     LifeComponent,
-    CycleComponent
+    CycleComponent,
+    TimeComponent
   ],
   imports: [
     BrowserModule,
