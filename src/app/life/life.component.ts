@@ -7,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LifeComponent implements OnInit {
 
-  constructor() { }
+  info: string;
+
+  constructor() { 
+    this.info = 'World';
+  }
 
   ngOnInit() {
   }

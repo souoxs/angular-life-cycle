@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-cycle',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./cycle.component.scss']
 })
 export class CycleComponent implements OnInit {
+
+  @Input('Info') Info: string;
 
   constructor() { }
 
